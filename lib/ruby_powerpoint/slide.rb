@@ -44,7 +44,7 @@ module RubyPowerpoint
     end
 
     def notes_content
-      content_elements @slide_notes_xml
+      content_elements @slide_notes_xml if @slide_notes_xml
     end
 
     def title
